@@ -1,7 +1,7 @@
 import externals from 'webpack-node-externals';
 import FileManagerPlugin from 'filemanager-webpack-plugin';
-import { Configuration } from 'webpack';
-import { resolve } from 'path';
+import type { Configuration } from 'webpack';
+import { resolve } from 'node:path';
 
 const config: Configuration = {
   context: process.cwd(),
